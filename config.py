@@ -7,4 +7,5 @@ Config = {
     'isEnterprise': os.getenv('isEnterprise', 'True') == 'True',
     'enterpriseName': os.getenv('enterpriseName', 'codingcorp'),
     'staticRoot': os.getenv('staticRoot', 'static'),
+    'port': int(os.getenv('port', '8080'))
 }
